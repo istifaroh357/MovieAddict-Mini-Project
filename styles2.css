@@ -100,18 +100,6 @@ text-align: center;
 
 }
 
-  /* @media screen and (max-width: 690px) {
-    .imgCar {
-      height: 298px;
-    }
-  }
-
-  @media screen and (max-width: 690px) {
-    .imgCar {
-      height: 200px;
-    }
-  }
-
-  .card {
-    margin: 30px 12px;
-  } */
+.modal-content {
+  background-color: #9d9dd6;
+}

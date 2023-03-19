@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"
+            <a class="nav-link active" aria-current="page" href="index1.html"
               style="color:white;font-weight: bold;">Home</a>
           </li>
           <li class="nav-item">
@@ -86,21 +86,22 @@
       <div class="carousel-item active" data-bs-interval="5000">
         <img src="Carousel-1.webp" class="d-block w-100 imgCar" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <button class="btn btn-primary">Watch Now</button>
+          <p>The Survivors' objective is to escape the map by repairing five of seven generators scattered throughout it to power the two exit gates</p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
         <img src="Carousel-2.jpeg" class="d-block w-100 imgCar" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <button class="btn btn-primary">Watch Now</button>
-          <p>Some representative placeholder content for the second slide.</p>
+          <p>Ketika Ambar & Dika pindah setelah kematian orang tua mereka, tidak pernah terpikirkan apa yang seharusnya menjadi awal baru berubah menjadi awal kesengsaraan terbesar dalam hidup mereka.</p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="1000">
         <img src="Carousel-3.webp" class="d-block w-100 imgCar" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <button class="btn btn-primary">Watch Now</button>
+          <p>Sebuah virus jamur membuat korban yang terinfeksi menjadi haus darah dan dengan mudah menginfeksi orang lain. Kondisi ini menyebabkan kekacauan dan memicu pandemi global</p>
         </div>
       </div>
     </div>
@@ -115,6 +116,7 @@
   </div>
 
 
+  <!-- Card -->
   <div class="pre-card" >Top 4 New Realese this month!</div>
   <div class="row" style="background-image: linear-gradient(rgb(0, 3, 27),#7f7fa0);">
     <div class="col-12 col-md-6 col-lg-3">
@@ -133,7 +135,7 @@
         <img src="card-1-2.jpeg" class="card-img-top" alt="Terbang poster">
         <div class="card-body">
           <h5 class="card-title">TERBANG</h5>
-          <a href="#" class="btn-card btn btn-primary">Click to more</a>
+          <a href="" data-bs-toggle="modal" data-bs-target="#product2Modal" class="btn-card btn btn-primary">Click to more</a>
         </div>
       </div>
     </div>
@@ -168,7 +170,7 @@
         <img src="card-2-1.jpeg" class="card-img-top" alt="Garis Waktu poster">
         <div class="card-body">
           <h5 class="card-title">GARIS WAKTU</h5>
-          <a href="#" data-bs-toggle="modal" data-bs-target="#product1Modal" class="btn-card btn btn-primary">Click to
+          <a href="#" data-bs-toggle="modal" data-bs-target="#product1-2Modal" class="btn-card btn btn-primary">Click to
             more</a>
         </div>
       </div>
@@ -179,7 +181,7 @@
         <img src="card-2-2.webp" class="card-img-top" alt="Wakanda Forever">
         <div class="card-body">
           <h5 class="card-title">Wakanda Forever</h5>
-          <a href="#" class="btn-card btn btn-primary">Click to more</a>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#product2-2Modal" class="btn-card btn btn-primary">Click to more</a>
         </div>
       </div>
     </div>
@@ -222,11 +224,59 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body d-flex">
-          <img class="img-modal-card" src="card-1-1.jpg" alt="" style="width: 240px; height: 360px; ">
-          <p style="padding:15px; text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nostrum iste laboriosam aperiam, obcaecati omnis, expedita debitis culpa temporibus, id quibusdam aspernatur officiis ipsam similique aliquam. Eligendi, quia? Possimus deleniti laborum, suscipit nesciunt dignissimos aliquam ipsam, maxime exercitationem labore, animi rerum illum repudiandae.</p>
+          <img class=" rounded img-modal-card" src="card-1-1.jpg" alt="" style="width: 240px; height: 360px; ">
+          <p style="padding:15px; text-align: justify">Enola Holmes 2 adalah sebuah film misteri produksi tahun 2022 dan sekuel dari film sebelumnya, Enola Holmes, keduanya dibintangi oleh Millie Bobby Brown sebagai tokoh utama, remaja saudara perempuan dari detektif era Victoria yang sudah terkenal Sherlock Holmes.</p>
         </div>
       </div>
     </div>
   </div>
+<!-- Modal card 1-2 -->
+  <div class="modal fade" id="product2Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Terbang</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img class="rounded img-modal-card" src="card-1-2.jpeg" alt="" style="width: 240px; height: 360px; ">
+          <p style="padding:15px; text-align: justify">Terlahir di keluarga sederhana di Tarakan tak membuat Onggy (Dion Wiyoko) untuk berhenti bermimpi. Ia ingin melihat dunia, keluar dari Kalimantan seperti banyak orang yang meninggalkan tanah Borneo. Setelah mendapatkan restu dari keluarganya, akhirnya Onggy dapat berangkat melanjutkan kuliah ke Surabaya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal card 2-1 -->
+  <div class="modal fade" id="product1-2Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Garis Waktu</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img class="rounded img-modal-card" src="card-2-1.jpeg" alt="" style="width: 240px; height: 360px; ">
+          <p style="padding:15px; text-align: justify">April, yang gemar menulis puisi bertemu dengan Senandika, musisi yang berhasil mencuri perhatian dengan filosofi dan prinsipnya. April, yang melihat potensi pada diri Sena, memperkenalkannya pada Sanya, produser muda sahabatnya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal card 2-2 -->
+  <div class="modal fade" id="product2-2Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Wakanda Forever</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img class="rounded img-modal-card" src="card-2-2.webp" alt="" style="width: 240px; height: 360px; ">
+          <p style="padding:15px; text-align: justify">Rakyat Wakanda kali ini akan berjuang untuk melindungi negerinya dari campur tangan kekuatan dunia setelah kematian sang Raja T'Challa.Rakyat Wakanda kali ini akan berjuang untuk melindungi negerinya dari campur tangan kekuatan dunia setelah kematian sang Raja T'Challa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
