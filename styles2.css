@@ -1,0 +1,117 @@
+/* navbar collaps*/
+.sticky {
+  height: 67px;
+  position: sticky;
+  top: 0;
+  z-index: 66;
+  background-color: #000032;
+}
+
+.navbar-toggler {
+  background-color: #7f7fa0;
+}
+.show{
+    background-color: #11119b;
+    padding: 10px;
+  }
+
+  .alert {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding: 3px;
+    border-radius:0;
+    color: white;
+  }
+
+.alert-primary{
+  background-color: #51517e;
+  border: none;
+}
+
+  .breadcrumb {
+    margin-top: 0px;
+    margin-bottom: 0px   ;
+  }
+
+.breadcrumb-item {
+    font-weight: bold;
+    color: white;
+}
+
+.imgCar {
+  height: 500px;
+}
+
+.row {
+   margin-left: 0; margin-right: 0;
+}
+.pre-card {
+  color: white;font-weight: bold; 
+  background-color: rgb(0, 3, 27);
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+.pre-card2 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: #01012b;font-weight: bold; 
+  font-size: 22px;
+  background-color:#7f7fa0
+}
+
+.card {
+  width: 16rem;
+  margin: 10px;
+}
+  .card-img-top {
+    height: 330px;
+  }
+
+  .card-title {
+text-align: center;
+  }
+
+  .btn-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-card-modal{
+width:150px;
+margin-bottom: 10px;
+text-align: center;
+  }
+
+.p-footerr {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.footerr{
+    background-color:  #000032;
+    padding: 15px;
+    height: 150px;
+    padding-top: 30px;
+
+}
+
+  /* @media screen and (max-width: 690px) {
+    .imgCar {
+      height: 298px;
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    .imgCar {
+      height: 200px;
+    }
+  }
+
+  .card {
+    margin: 30px 12px;
+  } */
